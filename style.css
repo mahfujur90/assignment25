@@ -1,0 +1,218 @@
+.header{
+    background-color:#f6f9fc ;
+    
+} 
+.head{
+    padding: 30px 0px 60px 0px;
+    font-family: 'League Spartan', sans-serif;
+}
+.emty{
+    height: 1px;
+    width:  30px;
+    background-color: #5178ed;
+}
+.head p{
+    color: #aaadb3;
+}
+.pricing{
+    display: flex;
+    justify-content: space-between;
+}
+.table1{
+    background-color: #fff;
+    width: 30%;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    padding: 20px 0px;
+    text-transform: capitalize;
+    box-shadow: 1px 1px 10px rgb(232, 228, 228);
+    transition: all linear .4s;
+}
+.table1 h4{
+    padding: 15px 0px 0px 0px;
+}
+.table1 h1{
+    padding: 20px 0px;
+}
+.table1 .emty1{
+    height: 1px;
+    width: 200px;
+    background-color:#aaadb3;
+}
+.table1 ul{
+    list-style: none;
+}
+.table1 ul li{
+    font-size: 20px;
+    color: #aaadb3;
+}
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    padding:10px 35px;
+    background-color: #5178ed;
+    border-radius: 40px;
+    font-size: 18px;
+    position: relative;
+    z-index: 1;
+    border: none;
+    overflow: hidden;
+    
+}
+.btn::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0;
+    left: 0;
+    top: 0;
+    background-color:#5178ed;
+    z-index: -1;
+    transition: all linear .4s;
+
+}
+.btn:hover::after{
+    width: 100%;
+   
+}
+.table1:hover{
+    background-color: #5178ed;
+    color: #fff;
+}
+.table1:hover .btn{
+    background-color: #fff;
+    color: black;
+}
+.banner{
+    background-image: url(./allimage/free-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.banner::before{
+    content: "";
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     left: 0;
+     top: 0;
+     background-color: #325cd090;
+     z-index: -1;
+}
+.banner-bt{
+    width: 550px;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'League Spartan', sans-serif;
+}
+.banner-bt h1{
+    font-size: 40px;
+    padding: 15px 0px;
+}
+ .emty2{
+    width: 60px;
+    height: 1px;
+    background-color: #fff;
+    margin: auto;
+}
+.banner-bt p{
+    padding: 15px 0px;
+}
+.bt{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #5178ed;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.bt::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    color: black;
+    background-color: #fff;
+    transition: all linear .4s;
+    color:black;
+    z-index: -1;
+}
+.bt:hover::after{
+    width: 100%;
+   
+}
+.news-left{
+    background-color: #5178ed;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: #fff;
+    padding: 30px 50px;
+    font-family: 'League Spartan', sans-serif;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #ddd;
+}
+.div-left{
+    width: 350px;
+    text-transform: capitalize;
+}
+.div-left h3{
+    padding: 5px 0px;
+}
+.div-left p{
+    font-size: 18px;
+    padding: 5px 0px;
+}
+.email{
+    width: 300px;
+    padding: 5px 10px;
+    border-radius: 40px;
+    border: none;
+    text-transform: capitalize;
+}
+.submit{
+    width: 180px;
+    padding: 5px 10px;
+    border-radius: 40px;
+    border: 1px solid #fff;
+    text-transform: capitalize;
+    margin-left: 20px;
+    background-color: #5178ed;
+    color: #fff;
+}
+.news-right{
+    background-color: #fff;
+    margin-top: 60px;
+    border-radius: 5px;
+    padding: 27px 0px 40px 46px;
+    box-shadow: 1px 1px 15px 1px #ddd;
+
+}
+.news-right h4{
+    text-transform: capitalize;
+    font-size: 23px;
+}
+.fr-bt{
+    text-decoration:none;
+    display: inline-block;
+    color: #fff;
+    padding: 5px 30px;
+    border-radius: 40px;
+    background-color: #5178ed;
+    font-size: 18px;
+     margin-top:50px ;
+    text-transform: capitalize;
+}
